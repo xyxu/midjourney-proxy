@@ -23,6 +23,7 @@
         <knife4j.verison>4.1.0</knife4j.verison>
         <user-agent-utils.verison>1.21</user-agent-utils.verison>
         <httpclient.verison>4.5.14</httpclient.verison>
+        <hibernate-validator.version>6.1.3.Final</hibernate-validator.version>
         <validation-api.verison>2.0.1.Final</validation-api.verison>
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -99,6 +100,12 @@
             <groupId>eu.bitwalker</groupId>
             <artifactId>UserAgentUtils</artifactId>
             <version>${user-agent-utils.verison}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate-validator.version}</version>
         </dependency>
 
         <dependency>

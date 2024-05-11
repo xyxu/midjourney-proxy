@@ -19,7 +19,7 @@ public class NetworkProxyProperties implements Validator  {
     /**
      * Whether to enable network proxy auto configuration.
      */
-    private boolean enabled = true;
+    private boolean enabled = false;
 
     /**
      * Explicit network proxy servers configuration
